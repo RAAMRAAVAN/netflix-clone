@@ -1,0 +1,68 @@
+.background-img{
+    display: flex;
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-repeat: no-repeat;
+}
+.language{
+    background-color: transparent;
+    color:white;
+    border: 1px white solid;
+}
+.language2{
+    background-color: transparent;
+    color:	#777;
+    border: 1px #777 solid;
+}
+.background-color{
+    background-color: black;
+    display: flex;
+ 
+}
+.background-questions{
+    background-color: black;
+}
+.plus1_btn{
+    background-color: transparent;
+    border:none;
+}
+.plus1_btn:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+.plus2:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+.plus3:hover{
+    cursor: pointer;
+    display: none;
+}
+.plus4:hover{
+    cursor: pointer;
+    display: none;
+}
+.plus5:hover{
+    cursor: pointer;
+    display: none;
+}
+.plus6:hover{
+    cursor: pointer;
+    display: none;
+}
+.EH,.EH2{
+    display:none;
+}
+.eng:hover{
+    cursor: pointer;
+    background-color: rgb(207, 205, 205);
+}
+.hind,.eng{
+    background-color: white;
+}
+.hind:hover{
+    cursor: pointer;
+    background-color: rgb(207, 205, 205);
+}
+.EH2{
+    top:50px;
+}

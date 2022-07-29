@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfilx</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container-fluid background-img border-bottom border-secondary border-5 pb-5 px-1">
+        <div class="container-fluid  ">
+            <!-- ***********NAV bar*********** -->
+            <div class="row  mt-4 mx-lg-2 p-0 justify-content-between mb-5">
+                <div class="col-lg-2 col-md-2 col-1">
+                    <img src="netflix-logo.PNG" />
+                </div>
+                
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 position-relative ">
+                    <div class="row ">   
+                        <button class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-7  me-xl-4 me-sm-2 me-1  language py-2 px-0" onclick="language()"><i class="fa fa-globe mx-sm-2 mx-1 p-0 m-0" aria-hidden="true"></i>English<i class="mx-sm-2 mx-1 fa fa-caret-down" aria-hidden="true"></i></button>
+                        <button class="col-xl-4 col-lg-5 col-md-4 col-sm-4 col-4 me-xl-4 me-2 btn btn-danger px-sm-3 px-1 py-2 m-0 px-0">Sign in</button>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-7 mt-1 position-absolute EH row" id="EH">
+                        <p class="mb-0 px-4 rounded-top eng">English</p>
+                        <p class="mb-0 px-4 rounded-bottom hind">Hindi</p>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- *************headdings ********** -->
+            <div class="row align-items-center pt-5 flex-column">
+                <p class="col-lg-6 col-md-8 col-sm-10 text-white display-4 fw-bold mt-5 text-center m-0 p-0">
+                    Unlimited movies, TV shows and more.
+                </p>
+                <p class="col-lg-6 col-md-8 col-sm-10 text-white h4  mt-3 text-center m-0 p-0">Watch anywhere. Cancel anytime.</p>
+                <p class="col-7 text-white h5  mt-3 text-center m-0 p-0">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="col-lg-7 col-md-8 col-sm-9 mt-4 row mb-5 flex-lg-row flex-column align-items-center align-items-lg-stretch">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <input class="form-control  py-3 ps-3" type="text" placeholder="Email Address"/>
+                    </div>
+                    <button class="col-4 btn btn-danger mt-lg-0 mt-3">Get Started</button>
+                </div>
+            </div>           
+        </div>
+    </div>
+    <div class="container-fluid bg-black border-bottom border-secondary border-5 row justify-content-center align-items-center py-5 px-0 m-0">
+        <div class="col-10 row justify-content-lg-between align-items-lg-center  px-1 m-0 flex-lg-row flex-md-column  py-5">
+            <div class="col-lg-5 col-12 m-0 p-0 py-sm-5">
+                <p class="text-white display-4 fw-bold text-lg-start text-center ">Enjoy on your TV.</p>
+                <p class="text-white h3 text-lg-start text-center">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="col-lg-5 col-md-12 d-flex justify-content-lg-end justify-content-center m-0 p-0 py-sm-5">
+                <iframe src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" width="600" height="270" frameBorder="0"
+                    class="giphy-embed m-0 p-0" allowFullScreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black border-bottom border-secondary border-5 row justify-content-center align-items-center py-5 px-0 m-0">
+        <div class="col-10 row justify-content-lg-between align-items-lg-center  px-1 m-0 flex-lg-row flex-md-column flex-md-column-reverse  py-5">
+            <div class="col-lg-5 col-md-12 d-flex justify-content-lg-end justify-content-center m-0 p-0 py-sm-5">
+                <img class="img-fluid"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
+            </div>
+            <div class="col-lg-5 col-12 m-0 p-0 py-sm-5">
+                <p class="text-white display-4 fw-bold text-lg-start text-center ">Download your shows to watch offline.</p>
+                <p class="text-white h3 text-lg-start text-center">Save your favourites easily and always have something to watch.</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container-fluid bg-black border-bottom border-secondary border-5 row justify-content-center align-items-center py-5 px-0 m-0">
+        <div class="col-10 row justify-content-lg-between align-items-lg-center  px-1 m-0 flex-lg-row flex-md-column  py-5">
+            <div class="col-lg-5 col-12 m-0 p-0 py-sm-5">
+                <p class="text-white display-4 fw-bold text-lg-start text-center ">Watch everywhere.</p>
+                <p class="text-white h3 text-lg-start text-center">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="col-lg-5 col-md-12 d-flex justify-content-lg-end justify-content-center m-0 p-0 py-sm-5">
+                <iframe src="https://giphy.com/embed/QXCmokDXM7WGNli8aa" width="400" height="270" frameBorder="0"
+                    class="giphy-embed" allowFullScreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black border-bottom border-secondary border-5 row justify-content-center align-items-center py-5 px-0 m-0">
+        <div class="col-10 row justify-content-lg-between align-items-lg-center  px-1 m-0 flex-lg-row flex-md-column flex-md-column-reverse py-5">
+            <div class="col-lg-5 col-md-12 d-flex justify-content-lg-end justify-content-center m-0 p-0 py-sm-5">
+                <img class="img-fluid"
+                    src="https://occ-0-2085-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" />
+            </div>
+            <div class="col-lg-5 col-12 m-0 p-0 py-sm-5">
+                <p class="text-white display-4 fw-bold text-lg-start text-center ">Create profiles for children.</p>
+                <p class="text-white h3 text-lg-start text-center">Send children on adventures with their favourite characters in a space made just for
+                    them—free with your membership.</p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <!-- frequently asked questions -->
+    <div class="container-fluid background-questions row justify-content-center p-0 m-0  border-bottom border-5 border-dark">
+        <p class="display-5 fw-bold col-8 text-center text-white my-5 m-0">Frequently Asked Questions</p>
+        <div class="col-8 m-0 p-0 d-flex flex-column justify-content-between align-items-center row">
+            <div class="col-12 bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">What is Netflix?</p>
+                    <button onclick="Q1()" class="plus1_btn" id="Q1_plus" ><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q1"></p>
+            </div>
+            <div class="bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">How much does Netflix cost?</p>
+                    <button onclick="Q2()" class="plus1_btn" id="Q2_plus"><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q2"></p>
+            </div>
+            <div class="bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">Where can I watch?</p>
+                    <button onclick="Q3()" class="plus1_btn" id="Q3_plus"><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q3"></p>
+            </div>
+            <div class="bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">How do I cancel?</p>
+                    <button onclick="Q4()" class="plus1_btn" id="Q4_plus"><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q4"></p>
+            </div>
+            <div class="bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">What can I watch on Netflix?</p>
+                    <button onclick="Q5()" class="plus1_btn" id="Q5_plus"><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q5"></p>
+            </div>
+            <div class="bg-dark  align-items-center my-2 px-3 pt-4 questions">
+                <div class="d-flex justify-content-between">
+                    <p class=" text-white h3 ">Is Netflix good for kids?</p>
+                    <button onclick="Q6()" class="plus1_btn" id="Q6_plus"><i class="fa fa-plus  text-white " aria-hidden="true"></i></button>
+                </div>
+                <p class="text-white" id="q6"></p>
+            </div>
+            <div class="col-lg-10 col-md-12 col-sm-12 col-12 mt-12 row my-5 flex-lg-row flex-column align-items-center align-items-lg-stretch px-0">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12 px-0 me-lg-4 me-0">
+                    <input class="form-control  py-3 px-2" type="text" placeholder="Email Address"/>
+                </div>
+                <button class="col-sm-4 col-8 btn btn-danger mt-lg-0 mt-3">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <!-- Questions? Call 000-800-040-1843 -->
+    <div class="container-fluid row justify-content-center px-md-5 pt-4 m-0 bg-black px-0">
+        <p class="h6 text-muted">Questions? Call 000-800-040-1843</p>
+        <div class="row m-0 p-0">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <p class="text-muted">FAQ</p>
+                <p class="text-muted">Invester Relations</p>
+                <p class="text-muted">Privacy</p>
+                <p class="text-muted">Speed Test</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <p class="text-muted">Help Centre</p>
+                <p class="text-muted">Jobs</p>
+                <p class="text-muted">Cookie Preferences</p>
+                <p class="text-muted">Legal Notices</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <p class="text-muted">Account</p>
+                <p class="text-muted">Ways to Watch</p>
+                <p class="text-muted">Corporate Information</p>
+                <p class="text-muted">Only on Netflix</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                <p class="text-muted">Media Centre</p>
+                <p class="text-muted">Terms of Use</p>
+                <p class="text-muted">Contact Us</p>
+            </div>
+        </div>
+        <div class="col-12 d-flex py-2 mt-5 position-relative">
+            <button class="me-2 language2 py-2" onclick="language2()"><i class="fa fa-globe mx-2" aria-hidden="true"></i>English<i class="mx-2 fa fa-caret-down" aria-hidden="true"></i></button>
+            <div class="ps-2 mt-1 col-10 position-absolute EH2 row flex-column" id="EH2">
+                <p class="col-2 m-0 p-2 rounded-top eng">English</p>
+                <p class="col-2 m-0 p-2 rounded-bottom hind">Hindi</p>
+            </div>
+        </div>
+        <p class=" text-muted my-5">Netflix India</p>
+    </div>
+</body>
+</html>
+<script>
+    let status=[false,false,false,false,false,false,false,false];
+    function False(Q,ans,Q_plus)
+    {
+        Q.innerHTML=ans;
+        Q.style.fontSize="20px";
+        Q_plus.innerHTML='<i class="fa fa-times  text-white " aria-hidden="true"></i>';
+        return(true);
+    }
+    function True(Q,Q_plus)
+    {
+        Q.innerHTML="";
+        Q_plus.innerHTML='<i class="fa fa-plus  text-white " aria-hidden="true"></i>';
+        return(false);
+    }
+    function Q1()
+    {
+        if(status[0]==false)
+        {
+            let Q=document.getElementById("q1");
+            ans="Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!";
+            let Q_plus=document.getElementById("Q1_plus");
+            status[0]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q1");
+            let Q_plus=document.getElementById("Q1_plus");
+            status[0]=True(Q,Q_plus);
+        }
+    }
+    function Q2()
+    {
+        if(status[1]==false)
+        {
+            let Q=document.getElementById("q2");
+            ans="Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 199 to ₹ 799 a month. No extra costs, no contracts.";
+            console.log(ans);
+            let Q_plus=document.getElementById("Q2_plus");
+            status[1]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q2");
+            let Q_plus=document.getElementById("Q2_plus");
+            status[1]=True(Q,Q_plus);
+        }
+    }
+    function Q3()
+    {
+        if(status[2]==false)
+        {
+            let Q=document.getElementById("q3");
+            ans="Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.";
+            console.log(ans);
+            let Q_plus=document.getElementById("Q3_plus");
+            status[2]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q3");
+            let Q_plus=document.getElementById("Q3_plus");
+            status[2]=True(Q,Q_plus);
+        }
+    }
+    function Q4()
+    {
+        if(status[3]==false)
+        {
+            let Q=document.getElementById("q4");
+            ans="Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.";
+            console.log(ans);
+            let Q_plus=document.getElementById("Q4_plus");
+            status[3]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q4");
+            let Q_plus=document.getElementById("Q4_plus");
+            status[3]=True(Q,Q_plus);
+        }
+    }
+    function Q5()
+    {
+        if(status[4]==false)
+        {
+            let Q=document.getElementById("q5");
+            ans="Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.";
+            console.log(ans);
+            let Q_plus=document.getElementById("Q5_plus");
+            status[4]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q5");
+            let Q_plus=document.getElementById("Q5_plus");
+            status[4]=True(Q,Q_plus);
+        }
+    }
+    function Q6()
+    {
+        if(status[5]==false)
+        {
+            let Q=document.getElementById("q6");
+            ans="The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.";
+            console.log(ans);
+            let Q_plus=document.getElementById("Q6_plus");
+            status[5]=False(Q,ans,Q_plus);
+        }
+        else
+        {
+            let Q=document.getElementById("q6");
+            let Q_plus=document.getElementById("Q6_plus");
+            status[5]=True(Q,Q_plus);
+        }
+    }
+    function language()
+    {
+        let lang=document.getElementById("EH");
+        if(status[6]==false)
+        {
+            lang.style.display="block";
+            status[6]=true;
+        }
+        else
+        {
+            lang.style.display="none";
+            status[6]=false;
+        }
+        
+    }
+    function language2()
+    {
+        let lang=document.getElementById("EH2");
+        if(status[7]==false)
+        {
+            lang.style.display="block";
+            status[7]=true;
+        }
+        else
+        {
+            lang.style.display="none";
+            status[7]=false;
+        }
+        
+    }
+
+</script>
